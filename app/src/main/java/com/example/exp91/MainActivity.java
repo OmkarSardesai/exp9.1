@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         tb1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String st = "Buttons:- "+tb1.getText()+"\n";
+                String st = "Bluetooth:- "+tb1.getText()+"\n";
                 Toast.makeText(getApplicationContext(),st, Toast.LENGTH_SHORT).show();
             }
         });
